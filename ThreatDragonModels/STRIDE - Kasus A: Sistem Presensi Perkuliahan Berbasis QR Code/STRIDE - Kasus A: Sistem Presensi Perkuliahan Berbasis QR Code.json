@@ -25,7 +25,1166 @@
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": [],
+        "cells": [
+          {
+            "position": {
+              "x": 740,
+              "y": 330
+            },
+            "size": {
+              "width": 130,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Admin Akademik"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3ec1bbf5-6cd7-411c-b446-7779a96d0d99"
+                },
+                {
+                  "group": "right",
+                  "id": "2eded774-01b4-446b-bc78-10bde92b9033"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7acb0c9f-f0f5-4125-a0d3-4d38c893dd06"
+                },
+                {
+                  "group": "left",
+                  "id": "15bd118a-2510-42d5-a594-ed0c7310374e"
+                }
+              ]
+            },
+            "id": "da9202bb-1e47-4d05-bfe4-d2ad5b1a022f",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Admin Akademik",
+              "description": "Memiliki akses untuk melihat rekap presensi seluruh kelas melalui web untuk keperluan administrasi akademik.",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 350,
+              "y": 150
+            },
+            "size": {
+              "width": 80,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "Aplikasi \nWeb"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a6e80b96-804f-489f-910b-637c08fb0af1"
+                },
+                {
+                  "group": "right",
+                  "id": "381c4245-9fdc-4d7c-8b4a-46730b23bdcb"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a9ad4d11-c9e3-4538-8235-bfe272a66132"
+                },
+                {
+                  "group": "left",
+                  "id": "9e65181d-b0a0-4daf-b018-b220552de279"
+                }
+              ]
+            },
+            "id": "d3030e75-6fe4-4607-b166-ea9fa3d85265",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Aplikasi \nWeb",
+              "description": "Digunakan mahasiswa, dosen pengampu, dan admin akademik untuk berinteraksi dengan sistem presensi, termasuk melakukan login, scan QR Code, mengelola sesi presensi, dan juga melihat rekap kehadiran mahasiswa. ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": true,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 80,
+              "y": 330
+            },
+            "size": {
+              "width": 130,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Dosen Pengampu"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3ec1bbf5-6cd7-411c-b446-7779a96d0d99"
+                },
+                {
+                  "group": "right",
+                  "id": "2eded774-01b4-446b-bc78-10bde92b9033"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7acb0c9f-f0f5-4125-a0d3-4d38c893dd06"
+                },
+                {
+                  "group": "left",
+                  "id": "15bd118a-2510-42d5-a594-ed0c7310374e"
+                }
+              ]
+            },
+            "id": "22d8228d-8ed2-4ca4-8994-fe2b3667fbe8",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Dosen Pengampu",
+              "description": "Memiliki hak untuk membuka dan menutup presensi pada kelas yang diajarnya. Dosen juga dapat memantau daftar kehadiran mahasiswa pada kelas tersebut.",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 88.75,
+              "y": 54
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Mahasiswa"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3ec1bbf5-6cd7-411c-b446-7779a96d0d99"
+                },
+                {
+                  "group": "right",
+                  "id": "2eded774-01b4-446b-bc78-10bde92b9033"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7acb0c9f-f0f5-4125-a0d3-4d38c893dd06"
+                },
+                {
+                  "group": "left",
+                  "id": "15bd118a-2510-42d5-a594-ed0c7310374e"
+                }
+              ]
+            },
+            "id": "e0c7b3d6-b0d8-417b-888d-4446f59444af",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Mahasiswa",
+              "description": "Sebagai pengguna yang harus melakukan login menggunakan akun kampus dan melakukan scan QR Code untuk presensi perkuliahan. Mahasiswa akan mengirimkan identitas sesi dan informasi autentikasi ke sistem untuk divalidasi.",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            },
+            "children": []
+          },
+          {
+            "position": {
+              "x": 630,
+              "y": 54
+            },
+            "size": {
+              "width": 150,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Layanan Autentikasi \nKampus"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3ec1bbf5-6cd7-411c-b446-7779a96d0d99"
+                },
+                {
+                  "group": "right",
+                  "id": "2eded774-01b4-446b-bc78-10bde92b9033"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7acb0c9f-f0f5-4125-a0d3-4d38c893dd06"
+                },
+                {
+                  "group": "left",
+                  "id": "15bd118a-2510-42d5-a594-ed0c7310374e"
+                }
+              ]
+            },
+            "id": "aea08c16-665b-49dd-81f7-be057acacf79",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Layanan Autentikasi \nKampus",
+              "description": "Digunakan untuk memvalidasi informasi autentikasi pengguna sebelum pengguna dapat mengakses web layanan presensi.",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": true,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 1012,
+              "y": 150
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Database Akademik"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "7cbbd8ed-1280-41f0-b70c-d8d34aba3416"
+                },
+                {
+                  "group": "right",
+                  "id": "97022125-a71a-409c-aa52-de4ad92e8c7a"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8af5d44b-278a-43a6-8b1f-544a91b31ca1"
+                },
+                {
+                  "group": "left",
+                  "id": "3e556d4c-0c73-4dac-88ea-2e606c64437d"
+                }
+              ]
+            },
+            "id": "18af27e5-ee58-456b-b781-b9cdeae22c97",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Store",
+              "name": "Database Akademik",
+              "description": "Penyimpanan data akademik yang digunakan sistem untuk menyimpan dan memperoleh informasi identitas pengguna, keanggotaan kelas, jadwal, sesi, presensi, serta data kehadiran mahasiswa.\ncatatan kehadiran.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 980,
+              "y": 400
+            },
+            "size": {
+              "width": 90,
+              "height": 70
+            },
+            "attrs": {
+              "text": {
+                "text": "Backend \nPresensi"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "a6e80b96-804f-489f-910b-637c08fb0af1"
+                },
+                {
+                  "group": "right",
+                  "id": "381c4245-9fdc-4d7c-8b4a-46730b23bdcb"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a9ad4d11-c9e3-4538-8235-bfe272a66132"
+                },
+                {
+                  "group": "left",
+                  "id": "9e65181d-b0a0-4daf-b018-b220552de279"
+                }
+              ]
+            },
+            "id": "b57b7aa9-bfd7-4633-a76a-3e0ea77d7bf0",
+            "zIndex": 7,
+            "data": {
+              "type": "tm.Process",
+              "name": "Backend \nPresensi",
+              "description": "Komponen utama yang memproses request presensi, melakukan validasi autentikasi pengguna, memeriksa masa berlaku sesi dan status mahasiswa dalam kelas, serta menyimpan data kehadiran ke Database Akademik.",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": true,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Login dan Scan QR",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Login dan Scan QR"
+            ],
+            "id": "dfb5be57-3684-44a1-bb40-14bff46ed425",
+            "source": {
+              "cell": "e0c7b3d6-b0d8-417b-888d-4446f59444af",
+              "port": "2eded774-01b4-446b-bc78-10bde92b9033"
+            },
+            "target": {
+              "cell": "d3030e75-6fe4-4607-b166-ea9fa3d85265",
+              "port": "a6e80b96-804f-489f-910b-637c08fb0af1"
+            },
+            "vertices": [
+              {
+                "x": 370,
+                "y": 84
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Menampilkan QR dan Hasil presensi",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Menampilkan QR dan Hasil presensi"
+            ],
+            "id": "609e8bcb-5103-4921-8b68-ef30862ad82f",
+            "source": {
+              "cell": "d3030e75-6fe4-4607-b166-ea9fa3d85265",
+              "port": "9e65181d-b0a0-4daf-b018-b220552de279"
+            },
+            "target": {
+              "cell": "e0c7b3d6-b0d8-417b-888d-4446f59444af",
+              "port": "7acb0c9f-f0f5-4125-a0d3-4d38c893dd06"
+            },
+            "vertices": [
+              {
+                "x": 290,
+                "y": 185
+              },
+              {
+                "x": 210,
+                "y": 160
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request pembuatan/buka dan tutup sesi",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request pembuatan/buka dan tutup sesi"
+            ],
+            "id": "3f8c9588-ae31-4c2e-a5cb-456d9e86e1e2",
+            "source": {
+              "cell": "22d8228d-8ed2-4ca4-8994-fe2b3667fbe8",
+              "port": "3ec1bbf5-6cd7-411c-b446-7779a96d0d99"
+            },
+            "target": {
+              "cell": "d3030e75-6fe4-4607-b166-ea9fa3d85265",
+              "port": "9e65181d-b0a0-4daf-b018-b220552de279"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "QR Code dan Daftar Kehadiran",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "QR Code dan Daftar Kehadiran"
+            ],
+            "id": "8788e7f7-574c-42f6-b125-d1edb6131054",
+            "source": {
+              "cell": "d3030e75-6fe4-4607-b166-ea9fa3d85265",
+              "port": "a9ad4d11-c9e3-4538-8235-bfe272a66132"
+            },
+            "target": {
+              "cell": "22d8228d-8ed2-4ca4-8994-fe2b3667fbe8",
+              "port": "2eded774-01b4-446b-bc78-10bde92b9033"
+            },
+            "vertices": [
+              {
+                "x": 380,
+                "y": 320
+              },
+              {
+                "x": 340,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 483,
+              "y": 400
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "3ec1bbf5-6cd7-411c-b446-7779a96d0d99"
+                },
+                {
+                  "group": "right",
+                  "id": "2eded774-01b4-446b-bc78-10bde92b9033"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7acb0c9f-f0f5-4125-a0d3-4d38c893dd06"
+                },
+                {
+                  "group": "left",
+                  "id": "15bd118a-2510-42d5-a594-ed0c7310374e"
+                }
+              ]
+            },
+            "id": "49a0e5b7-8ef1-428c-b241-b74961ac7834",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          }
+        ],
         "description": "DFD yang menggambarkan alur komunikasi antara mahasiswa, dosen pengampu, admin akademik, aplikasi web, Backend Presensi, layanan autentikasi kampus, dan Database Akademik. Diagram ini mencakup proses dari pembukaan sesi presensi, pembuatan serta scan QR Code, validasi identitas dan sesi oleh backend, penyimpanan data kehadiran, dan menampilkan rekap presensi. Diagram ini juga menunjukkan aliran data dan trust boundary untuk mendukung identifikasi ancaman dengan menggunakan metode STRIDE."
       }
     ],
