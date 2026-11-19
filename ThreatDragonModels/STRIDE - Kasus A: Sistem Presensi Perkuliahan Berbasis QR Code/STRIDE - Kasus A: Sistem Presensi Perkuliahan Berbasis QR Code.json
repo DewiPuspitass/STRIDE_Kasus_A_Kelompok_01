@@ -26,7 +26,7 @@
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
         "cells": [],
-        "description": "DFD yang menggambarkan alur komunikasi antara mahasiswa, dosen pengampu, admin akademik, aplikasi web, Backend Presensi, layanan autentikasi kampus, dan Database Akademik. Diagram ini mencakup proses dari pembukaan sesi presensi, pembuatan serta scan QR Code, validasi identitas dan sesi oleh backend, penyimpanan data kehadiran, dan menampilkan rekap presensi. Diagram ini juga menunjukkan aliran data dan trust boundary untuk mendukung identifikasi ancaman dengan menggunakan metode STRIDE"
+        "description": "DFD yang menggambarkan alur komunikasi antara mahasiswa, dosen pengampu, admin akademik, aplikasi web, Backend Presensi, layanan autentikasi kampus, dan Database Akademik. Diagram ini mencakup proses dari pembukaan sesi presensi, pembuatan serta scan QR Code, validasi identitas dan sesi oleh backend, penyimpanan data kehadiran, dan menampilkan rekap presensi. Diagram ini juga menunjukkan aliran data dan trust boundary untuk mendukung identifikasi ancaman dengan menggunakan metode STRIDE."
       }
     ],
     "diagramTop": 1,
