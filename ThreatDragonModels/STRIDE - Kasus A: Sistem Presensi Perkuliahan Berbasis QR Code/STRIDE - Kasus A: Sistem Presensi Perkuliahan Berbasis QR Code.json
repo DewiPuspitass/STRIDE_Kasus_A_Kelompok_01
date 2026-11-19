@@ -1,0 +1,36 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-11-19",
+  "summary": {
+    "title": "STRIDE - Kasus A: Sistem Presensi Perkuliahan Berbasis QR Code",
+    "owner": "Dewi Puspita Sari (103012680029)",
+    "description": "Sistem Presensi Perkuliahan Berbasis QR Code merupakan sebuah website yang digunakan dalam perkuliahan untuk mengelola daftar kehadiran mahasiswa. Dosen pengampu dapat membuka sesi presensi serta menampilkan QR Code yang berlaku hanya dalam waktu 5 menit. Kemudian mahasiswa dapat melakukan scan QR Code dengan melakukan login akun kampus terlebih dahulu untuk memvalidasi identitas sesi serta informasi autentikasi ke Backend Presensi. Sistem backend melakukan validasi terhadap masa berlaku sesi dan status mahasiswanya dalam kelas sebelum menyimpan data kehadiran ke Database Akademik. Dosen dapat mengamati daftar hadir mahasiswa di kelasnya, sedangkan admin akademik dapat melihat rekapan presensi untuk seluruh kelas.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Rahman Hakim (103012680032)"
+      },
+      {
+        "name": "I Made Adre Udayana Putra (103012680049)"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD - Sistem Presensi Perkuliahan Berbasis QR Code",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "DFD yang menggambarkan alur komunikasi antara mahasiswa, dosen pengampu, admin akademik, aplikasi web, Backend Presensi, layanan autentikasi kampus, dan Database Akademik. Diagram ini mencakup proses dari pembukaan sesi presensi, pembuatan serta scan QR Code, validasi identitas dan sesi oleh backend, penyimpanan data kehadiran, dan menampilkan rekap presensi. Diagram ini juga menunjukkan aliran data dan trust boundary untuk mendukung identifikasi ancaman dengan menggunakan metode STRIDE"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Satria Mandala",
+    "threatTop": 0
+  }
+}
