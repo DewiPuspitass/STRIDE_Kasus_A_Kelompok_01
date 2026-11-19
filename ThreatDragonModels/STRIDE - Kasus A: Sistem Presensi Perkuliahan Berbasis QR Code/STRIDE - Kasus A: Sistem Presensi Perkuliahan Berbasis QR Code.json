@@ -32,7 +32,7 @@
               "y": 49.99999999999818
             },
             "size": {
-              "width": 840,
+              "width": 930,
               "height": 360
             },
             "attrs": {
@@ -558,8 +558,8 @@
           },
           {
             "position": {
-              "x": 1030,
-              "y": 84
+              "x": 1110,
+              "y": 94
             },
             "size": {
               "width": 150,
@@ -675,8 +675,8 @@
           },
           {
             "position": {
-              "x": 980,
-              "y": 300
+              "x": 1060,
+              "y": 310
             },
             "size": {
               "width": 120,
@@ -834,8 +834,8 @@
           },
           {
             "position": {
-              "x": 710,
-              "y": 84
+              "x": 790,
+              "y": 94
             },
             "size": {
               "width": 90,
@@ -1317,8 +1317,8 @@
             },
             "vertices": [
               {
-                "x": 640,
-                "y": 120
+                "x": 720,
+                "y": 130
               }
             ]
           },
@@ -1342,7 +1342,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Hasil Validasi dan Data Rekap",
+              "name": "Hasil Pemrosesan Presensi dan Data Rekap",
               "description": "Mengirimkan hasil validasi presensi, informasi sesi, QR Code, daftar kehadiran, dan data rekap untuk ditampilkan di aplikasi web.",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1356,7 +1356,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Hasil Validasi dan Data Rekap"
+              "Hasil Pemrosesan Presensi dan Data Rekap"
             ],
             "id": "78fec4e0-2b4c-4074-a063-89fcc4ddbeaa",
             "source": {
@@ -1369,8 +1369,8 @@
             },
             "vertices": [
               {
-                "x": 700,
-                "y": 160
+                "x": 690,
+                "y": 189
               }
             ]
           },
@@ -1421,8 +1421,8 @@
             },
             "vertices": [
               {
-                "x": 970,
-                "y": 170
+                "x": 1130,
+                "y": 190
               }
             ]
           },
@@ -1473,8 +1473,8 @@
             },
             "vertices": [
               {
-                "x": 810,
-                "y": 270
+                "x": 890,
+                "y": 280
               }
             ]
           },
@@ -1525,8 +1525,8 @@
             },
             "vertices": [
               {
-                "x": 900,
-                "y": 220
+                "x": 980,
+                "y": 230
               }
             ]
           },
