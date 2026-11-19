@@ -2,7 +2,7 @@ Kelompok 1
 Anggota:
 - Dewi Puspita Sari (103012680029)
 - Rahman Hakim (103012680032)
-- I Made Adre Udayana Putra (103012680040)
+- I Made Adre Udayana Putra (103012680049)
 
 Kasus A
 1. Latar belakang dan operasi sistem
