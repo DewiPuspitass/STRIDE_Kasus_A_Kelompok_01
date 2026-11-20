@@ -301,6 +301,13 @@
               "isWebApplication": true,
               "privilegeLevel": "",
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -418,6 +425,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -528,7 +542,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Mahasiswa",
-              "description": "Sebagai pengguna yang harus melakukan login menggunakan akun kampus dan melakukan scan QR Code untuk presensi perkuliahan. Mahasiswa akan mengirimkan identitas sesi dan informasi autentikasi ke sistem untuk divalidasi.",
+              "description": "Sebagai pengguna yang harus melakukan login dengan menggunakan akun kampus dan melakukan scan QR Code untuk presensi perkuliahan. Mahasiswa akan mengirimkan identitas sesi dan informasi autentikasi ke sistem untuk divalidasi.",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -664,7 +678,7 @@
             "data": {
               "type": "tm.Actor",
               "name": "Layanan Autentikasi \nKampus",
-              "description": "Digunakan untuk memvalidasi informasi autentikasi pengguna sebelum pengguna dapat mengakses web layanan presensi.",
+              "description": "Digunakan untuk memvalidasi informasi autentikasi pengguna sebelum pengguna dapat mengakses web presensi.",
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -786,7 +800,7 @@
             "data": {
               "type": "tm.Store",
               "name": "Database Akademik",
-              "description": "Penyimpanan data akademik yang digunakan sistem untuk menyimpan dan memperoleh informasi identitas pengguna, keanggotaan kelas, jadwal, sesi, presensi, serta data kehadiran mahasiswa.\ncatatan kehadiran.",
+              "description": "Sebagai database untuk menyimpan dan memperoleh informasi identitas pengguna, keanggotaan kelas, jadwal, sesi, presensi, serta data kehadiran mahasiswa.",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
